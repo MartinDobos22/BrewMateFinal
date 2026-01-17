@@ -43,7 +43,6 @@ react {
     //   See https://github.com/react-native-community/cli/blob/main/docs/commands.md#bundle
     // extraPackagerArgs = []
     // Generate the JS bundle in debug builds so the app can start without Metro.
-    bundleInDebug = true
 
     /* Hermes Commands */
     //   The hermes compiler command to run. By default it is 'hermesc'
