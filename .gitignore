@@ -64,6 +64,15 @@ junit.xml
 !.env.example
 !.env.sample
 !.env.template
+# Firebase Admin SDK service account (NEVER commit)
+firebase-adminsdk*.json
+**/firebase-adminsdk*.json
+google-services*.json
+
+# (optional) any other service-account style json keys
+**/*serviceAccount*.json
+**/*service-account*.json
+
 
 # Common secret/key formats
 *.pem
